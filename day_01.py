@@ -3,7 +3,7 @@ def fuel_required(mass):
 
 if __name__ == '__main__':
     # Get the input data
-    with open('input/day_1.txt') as f:
+    with open('input/day_01.txt') as f:
         file_data = f.read()
     input_list = [int(x) for x in file_data.split('\n')]
 
